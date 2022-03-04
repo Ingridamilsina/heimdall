@@ -1,4 +1,4 @@
-FROM golang:latest
+FROM golang:1-bullseye
 
 ARG HEIMDALL_DIR=/heimdall
 ENV HEIMDALL_DIR=$HEIMDALL_DIR
